@@ -1,4 +1,6 @@
 # SameCoin
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/95be995e-d39a-44aa-ab74-9a0289f22567" />
+
 Bringing Toly's Vision into life using a unified liquidity-synchronization layer that normalizes memetic order flow across a single deterministic asset primitive. Same buyer set, same execution surface, zero fragmentation. Everyone buys the same coin. Protocol complete.
 ## Contents
 - `index.html` — demo landing page
