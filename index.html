@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SAME COIN — Demo (NON-FUNCTIONAL)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="bg-grid"></div>
+
+  <header class="header">
+    <div class="logo">SAME<span class="accent">COIN</span></div>
+    <div class="label warning">DEMO — NON-FUNCTIONAL</div>
+  </header>
+
+  <main class="hero">
+    <h1>SameCoin</h1>
+    <p class="tagline">A flashy demo landing page. Nothing here will buy or trade tokens.</p>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-value">999,999</div>
+        <div class="stat-label">Holders (fake)</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">$0.0001</div>
+        <div class="stat-label">Price (mock)</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">100%</div>
+        <div class="stat-label">Supply (mock)</div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="buyBtn" class="btn neon">Buy SAME</button>
+      <button id="learnBtn" class="btn outline">Learn More</button>
+    </div>
+
+    <p class="disclaimer">This page is a clearly-labeled demo created for UI/UX and educational purposes only.</p>
+  </main>
+
+  <footer class="footer">
+    <small>Built for demo / satire. No financial advice. No real token integrations.</small>
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <h2 id="modalTitle">This is a Demo — No Functionality</h2>
+      <p>
+        This page is intentionally non-functional. There is no wallet connection, no blockchain transactions,
+        and no capability to buy, sell, or trade any token. It exists for design, testing, or educational use only.
+      </p>
+      <ul>
+        <li>Do NOT use this page to request funds.</li>
+        <li>Do NOT treat any numbers shown here as real market data.</li>
+        <li>If you want a real implementation, hire a qualified developer and comply with laws and exchange rules.</li>
+      </ul>
+      <div class="modal-actions">
+        <button id="closeModal" class="btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
