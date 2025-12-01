@@ -3,7 +3,7 @@
   --neon:#00fff7;
   --accent:#ff29d6;
   --muted:#9aa0a6;
-  --glass: rgba(255,255,255,0.04);
+  --glass: rgba(255,255,255,0.05);
 }
 
 *{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;padding:0}
